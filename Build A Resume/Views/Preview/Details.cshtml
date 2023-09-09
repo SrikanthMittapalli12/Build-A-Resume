@@ -1,0 +1,131 @@
+﻿@model Build_A_Resume.Models.ResumeViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div>
+    <h4>PersonalInformation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonalInfo.FullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.FullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonalInfo.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonalInfo.Phone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.Phone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonalInfo.Address)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.Address)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PersonalInfo.Summary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.Summary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education.Institution)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Education.Institution)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education.Degree)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Education.Degree)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education.Major)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Education.Major)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education.GraduationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Education.GraduationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Education.PersonalInfo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.FullName)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Skill.SkillName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Skill.SkillName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Skill.SkillLevel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Skill.SkillLevel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Skill.PersonalInfo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.FullName)
+        </dd>
+
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.Company)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkExperience.Company)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.JobTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkExperience.JobTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.StartDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkExperience.StartDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.EndDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkExperience.EndDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkExperience.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkExperience.PersonalInfo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PersonalInfo.FullName)
+        </dd>
+    </dl>
+</div>
